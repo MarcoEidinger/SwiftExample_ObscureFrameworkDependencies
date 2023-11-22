@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF598682B0E97BD0041BCF5 /* SomeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF598672B0E97BD0041BCF5 /* SomeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF598E92B0E99220041BCF5 /* CoolAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF598E82B0E99220041BCF5 /* CoolAPI.swift */; };
+		8AF599B82B0EB2260041BCF5 /* CrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599A22B0EB2260041BCF5 /* CrashReporter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599B92B0EB2260041BCF5 /* PLCrashReportBinaryImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599A32B0EB2260041BCF5 /* PLCrashReportBinaryImageInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599BA2B0EB2260041BCF5 /* PLCrashReportMachExceptionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599A42B0EB2260041BCF5 /* PLCrashReportMachExceptionInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599BB2B0EB2260041BCF5 /* PLCrashReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599A52B0EB2260041BCF5 /* PLCrashReport.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599BC2B0EB2260041BCF5 /* PLCrashFeatureConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599A62B0EB2260041BCF5 /* PLCrashFeatureConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599BD2B0EB2270041BCF5 /* PLCrashReportApplicationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599A72B0EB2260041BCF5 /* PLCrashReportApplicationInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599BE2B0EB2270041BCF5 /* PLCrashReportSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599A82B0EB2260041BCF5 /* PLCrashReportSystemInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599BF2B0EB2270041BCF5 /* PLCrashMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599A92B0EB2260041BCF5 /* PLCrashMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C02B0EB2270041BCF5 /* PLCrashReportThreadInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599AA2B0EB2260041BCF5 /* PLCrashReportThreadInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C12B0EB2270041BCF5 /* PLCrashReportProcessorInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599AB2B0EB2260041BCF5 /* PLCrashReportProcessorInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C22B0EB2270041BCF5 /* PLCrashReportStackFrameInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599AC2B0EB2260041BCF5 /* PLCrashReportStackFrameInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C32B0EB2270041BCF5 /* PLCrashReportExceptionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599AD2B0EB2260041BCF5 /* PLCrashReportExceptionInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C42B0EB2270041BCF5 /* PLCrashReportFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599AE2B0EB2260041BCF5 /* PLCrashReportFormatter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C52B0EB2270041BCF5 /* PLCrashNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599AF2B0EB2260041BCF5 /* PLCrashNamespace.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C62B0EB2270041BCF5 /* PLCrashReportMachineInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599B02B0EB2260041BCF5 /* PLCrashReportMachineInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C72B0EB2270041BCF5 /* PLCrashReportProcessInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599B12B0EB2260041BCF5 /* PLCrashReportProcessInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C82B0EB2270041BCF5 /* PLCrashReportSignalInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599B22B0EB2260041BCF5 /* PLCrashReportSignalInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599C92B0EB2270041BCF5 /* PLCrashReportSymbolInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599B32B0EB2260041BCF5 /* PLCrashReportSymbolInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599CA2B0EB2270041BCF5 /* PLCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599B42B0EB2260041BCF5 /* PLCrashReporter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599CB2B0EB2270041BCF5 /* PLCrashReportRegisterInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599B52B0EB2260041BCF5 /* PLCrashReportRegisterInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599CC2B0EB2270041BCF5 /* PLCrashReportTextFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599B62B0EB2260041BCF5 /* PLCrashReportTextFormatter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8AF599CD2B0EB2270041BCF5 /* PLCrashReporterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF599B72B0EB2260041BCF5 /* PLCrashReporterConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8AF598642B0E97BD0041BCF5 /* SomeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SomeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF598672B0E97BD0041BCF5 /* SomeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeFramework.h; sourceTree = "<group>"; };
+		8AF598E82B0E99220041BCF5 /* CoolAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolAPI.swift; sourceTree = "<group>"; };
+		8AF5991A2B0EA4950041BCF5 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		8AF599A22B0EB2260041BCF5 /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrashReporter.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/CrashReporter.h"; sourceTree = "<group>"; };
+		8AF599A32B0EB2260041BCF5 /* PLCrashReportBinaryImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportBinaryImageInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportBinaryImageInfo.h"; sourceTree = "<group>"; };
+		8AF599A42B0EB2260041BCF5 /* PLCrashReportMachExceptionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportMachExceptionInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportMachExceptionInfo.h"; sourceTree = "<group>"; };
+		8AF599A52B0EB2260041BCF5 /* PLCrashReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReport.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReport.h"; sourceTree = "<group>"; };
+		8AF599A62B0EB2260041BCF5 /* PLCrashFeatureConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashFeatureConfig.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashFeatureConfig.h"; sourceTree = "<group>"; };
+		8AF599A72B0EB2260041BCF5 /* PLCrashReportApplicationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportApplicationInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportApplicationInfo.h"; sourceTree = "<group>"; };
+		8AF599A82B0EB2260041BCF5 /* PLCrashReportSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportSystemInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportSystemInfo.h"; sourceTree = "<group>"; };
+		8AF599A92B0EB2260041BCF5 /* PLCrashMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashMacros.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashMacros.h"; sourceTree = "<group>"; };
+		8AF599AA2B0EB2260041BCF5 /* PLCrashReportThreadInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportThreadInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportThreadInfo.h"; sourceTree = "<group>"; };
+		8AF599AB2B0EB2260041BCF5 /* PLCrashReportProcessorInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportProcessorInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportProcessorInfo.h"; sourceTree = "<group>"; };
+		8AF599AC2B0EB2260041BCF5 /* PLCrashReportStackFrameInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportStackFrameInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportStackFrameInfo.h"; sourceTree = "<group>"; };
+		8AF599AD2B0EB2260041BCF5 /* PLCrashReportExceptionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportExceptionInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportExceptionInfo.h"; sourceTree = "<group>"; };
+		8AF599AE2B0EB2260041BCF5 /* PLCrashReportFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportFormatter.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportFormatter.h"; sourceTree = "<group>"; };
+		8AF599AF2B0EB2260041BCF5 /* PLCrashNamespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashNamespace.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashNamespace.h"; sourceTree = "<group>"; };
+		8AF599B02B0EB2260041BCF5 /* PLCrashReportMachineInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportMachineInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportMachineInfo.h"; sourceTree = "<group>"; };
+		8AF599B12B0EB2260041BCF5 /* PLCrashReportProcessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportProcessInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportProcessInfo.h"; sourceTree = "<group>"; };
+		8AF599B22B0EB2260041BCF5 /* PLCrashReportSignalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportSignalInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportSignalInfo.h"; sourceTree = "<group>"; };
+		8AF599B32B0EB2260041BCF5 /* PLCrashReportSymbolInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportSymbolInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportSymbolInfo.h"; sourceTree = "<group>"; };
+		8AF599B42B0EB2260041BCF5 /* PLCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReporter.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReporter.h"; sourceTree = "<group>"; };
+		8AF599B52B0EB2260041BCF5 /* PLCrashReportRegisterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportRegisterInfo.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportRegisterInfo.h"; sourceTree = "<group>"; };
+		8AF599B62B0EB2260041BCF5 /* PLCrashReportTextFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReportTextFormatter.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReportTextFormatter.h"; sourceTree = "<group>"; };
+		8AF599B72B0EB2260041BCF5 /* PLCrashReporterConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLCrashReporterConfig.h; path = "ExternalDependencies/PLCrashReporter-iOS/Debug-iphoneos/include/PLCrashReporterConfig.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AF598612B0E97BD0041BCF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AF5985A2B0E97BC0041BCF5 = {
+			isa = PBXGroup;
+			children = (
+				8AF598662B0E97BD0041BCF5 /* SomeFramework */,
+				8AF598652B0E97BD0041BCF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AF598652B0E97BD0041BCF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AF598642B0E97BD0041BCF5 /* SomeFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AF598662B0E97BD0041BCF5 /* SomeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				8AF599A12B0EB20C0041BCF5 /* Dependencies_ImplementationDetails */,
+				8AF598672B0E97BD0041BCF5 /* SomeFramework.h */,
+				8AF598E82B0E99220041BCF5 /* CoolAPI.swift */,
+				8AF5991A2B0EA4950041BCF5 /* module.modulemap */,
+			);
+			path = SomeFramework;
+			sourceTree = "<group>";
+		};
+		8AF599A12B0EB20C0041BCF5 /* Dependencies_ImplementationDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8AF599A22B0EB2260041BCF5 /* CrashReporter.h */,
+				8AF599A62B0EB2260041BCF5 /* PLCrashFeatureConfig.h */,
+				8AF599A92B0EB2260041BCF5 /* PLCrashMacros.h */,
+				8AF599AF2B0EB2260041BCF5 /* PLCrashNamespace.h */,
+				8AF599A52B0EB2260041BCF5 /* PLCrashReport.h */,
+				8AF599A72B0EB2260041BCF5 /* PLCrashReportApplicationInfo.h */,
+				8AF599A32B0EB2260041BCF5 /* PLCrashReportBinaryImageInfo.h */,
+				8AF599B42B0EB2260041BCF5 /* PLCrashReporter.h */,
+				8AF599B72B0EB2260041BCF5 /* PLCrashReporterConfig.h */,
+				8AF599AD2B0EB2260041BCF5 /* PLCrashReportExceptionInfo.h */,
+				8AF599AE2B0EB2260041BCF5 /* PLCrashReportFormatter.h */,
+				8AF599A42B0EB2260041BCF5 /* PLCrashReportMachExceptionInfo.h */,
+				8AF599B02B0EB2260041BCF5 /* PLCrashReportMachineInfo.h */,
+				8AF599B12B0EB2260041BCF5 /* PLCrashReportProcessInfo.h */,
+				8AF599AB2B0EB2260041BCF5 /* PLCrashReportProcessorInfo.h */,
+				8AF599B52B0EB2260041BCF5 /* PLCrashReportRegisterInfo.h */,
+				8AF599B22B0EB2260041BCF5 /* PLCrashReportSignalInfo.h */,
+				8AF599AC2B0EB2260041BCF5 /* PLCrashReportStackFrameInfo.h */,
+				8AF599B32B0EB2260041BCF5 /* PLCrashReportSymbolInfo.h */,
+				8AF599A82B0EB2260041BCF5 /* PLCrashReportSystemInfo.h */,
+				8AF599B62B0EB2260041BCF5 /* PLCrashReportTextFormatter.h */,
+				8AF599AA2B0EB2260041BCF5 /* PLCrashReportThreadInfo.h */,
+			);
+			name = Dependencies_ImplementationDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8AF5985F2B0E97BD0041BCF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF599CC2B0EB2270041BCF5 /* PLCrashReportTextFormatter.h in Headers */,
+				8AF598682B0E97BD0041BCF5 /* SomeFramework.h in Headers */,
+				8AF599C22B0EB2270041BCF5 /* PLCrashReportStackFrameInfo.h in Headers */,
+				8AF599BE2B0EB2270041BCF5 /* PLCrashReportSystemInfo.h in Headers */,
+				8AF599C02B0EB2270041BCF5 /* PLCrashReportThreadInfo.h in Headers */,
+				8AF599C82B0EB2270041BCF5 /* PLCrashReportSignalInfo.h in Headers */,
+				8AF599CD2B0EB2270041BCF5 /* PLCrashReporterConfig.h in Headers */,
+				8AF599B82B0EB2260041BCF5 /* CrashReporter.h in Headers */,
+				8AF599BA2B0EB2260041BCF5 /* PLCrashReportMachExceptionInfo.h in Headers */,
+				8AF599BB2B0EB2260041BCF5 /* PLCrashReport.h in Headers */,
+				8AF599B92B0EB2260041BCF5 /* PLCrashReportBinaryImageInfo.h in Headers */,
+				8AF599BC2B0EB2260041BCF5 /* PLCrashFeatureConfig.h in Headers */,
+				8AF599CB2B0EB2270041BCF5 /* PLCrashReportRegisterInfo.h in Headers */,
+				8AF599C52B0EB2270041BCF5 /* PLCrashNamespace.h in Headers */,
+				8AF599C92B0EB2270041BCF5 /* PLCrashReportSymbolInfo.h in Headers */,
+				8AF599C62B0EB2270041BCF5 /* PLCrashReportMachineInfo.h in Headers */,
+				8AF599BF2B0EB2270041BCF5 /* PLCrashMacros.h in Headers */,
+				8AF599C12B0EB2270041BCF5 /* PLCrashReportProcessorInfo.h in Headers */,
+				8AF599CA2B0EB2270041BCF5 /* PLCrashReporter.h in Headers */,
+				8AF599C32B0EB2270041BCF5 /* PLCrashReportExceptionInfo.h in Headers */,
+				8AF599C72B0EB2270041BCF5 /* PLCrashReportProcessInfo.h in Headers */,
+				8AF599BD2B0EB2270041BCF5 /* PLCrashReportApplicationInfo.h in Headers */,
+				8AF599C42B0EB2270041BCF5 /* PLCrashReportFormatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8AF598632B0E97BD0041BCF5 /* SomeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF5986B2B0E97BD0041BCF5 /* Build configuration list for PBXNativeTarget "SomeFramework" */;
+			buildPhases = (
+				8AF5985F2B0E97BD0041BCF5 /* Headers */,
+				8AF598602B0E97BD0041BCF5 /* Sources */,
+				8AF598612B0E97BD0041BCF5 /* Frameworks */,
+				8AF598622B0E97BD0041BCF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SomeFramework;
+			productName = SomeFramework;
+			productReference = 8AF598642B0E97BD0041BCF5 /* SomeFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AF5985B2B0E97BC0041BCF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					8AF598632B0E97BD0041BCF5 = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+				};
+			};
+			buildConfigurationList = 8AF5985E2B0E97BC0041BCF5 /* Build configuration list for PBXProject "SomeFramework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AF5985A2B0E97BC0041BCF5;
+			productRefGroup = 8AF598652B0E97BD0041BCF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AF598632B0E97BD0041BCF5 /* SomeFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AF598622B0E97BD0041BCF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF598602B0E97BD0041BCF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF598E92B0E99220041BCF5 /* CoolAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8AF598692B0E97BD0041BCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AF5986A2B0E97BD0041BCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AF5986C2B0E97BD0041BCF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6V66CC3AN6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(TARGET_BUILD_DIR)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SomeFramework/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "$(SRCROOT)/SomeFramework/module.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"/Users/d041771/Desktop/r/SwiftExample_ObscureFrameworkDependencies/SomeFramework/SomeFramework/ExternalDependencies/PLCrashReporter-iOS/$(CONFIGURATION)-$(PLATFORM_NAME)/libCrashReporter.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.eidinger.kt.obscureFrameworkDependencies.SomeFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AF5986D2B0E97BD0041BCF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6V66CC3AN6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(TARGET_BUILD_DIR)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SomeFramework/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "$(SRCROOT)/SomeFramework/module.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = us.eidinger.kt.obscureFrameworkDependencies.SomeFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AF5985E2B0E97BC0041BCF5 /* Build configuration list for PBXProject "SomeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF598692B0E97BD0041BCF5 /* Debug */,
+				8AF5986A2B0E97BD0041BCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF5986B2B0E97BD0041BCF5 /* Build configuration list for PBXNativeTarget "SomeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AF5986C2B0E97BD0041BCF5 /* Debug */,
+				8AF5986D2B0E97BD0041BCF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AF5985B2B0E97BC0041BCF5 /* Project object */;
+}
