@@ -1,4 +1,5 @@
 import SomeFramework
+//import SomeFramework.PrivateDependencies
 import SwiftUI
 
 struct ContentView: View {

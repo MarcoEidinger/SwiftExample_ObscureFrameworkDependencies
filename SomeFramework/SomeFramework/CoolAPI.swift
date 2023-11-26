@@ -1,4 +1,5 @@
 import Foundation
+@_implementationOnly import SomeFramework.PrivateDependencies
 
 public struct MyCoolAPI {
     public init() {}

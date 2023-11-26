@@ -7,7 +7,11 @@
 
 framework module SomeFramework {
     umbrella header "SomeFramework.h"
+    export *
+    module * { export * }
+}
 
+explicit module SomeFramework.PrivateDependencies {
     /*CrashReporting Headers*/
     header "CrashReporter.h"
     header "PLCrashNamespace.h"
@@ -33,6 +37,5 @@ framework module SomeFramework {
     header "PLCrashFeatureConfig.h"
     
     export *
-    module * { export * }
 }
 
